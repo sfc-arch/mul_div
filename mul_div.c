@@ -14,19 +14,7 @@ static __inline int mul(int x,int y) {
 //
 // 以下を削除してここに乗算のロジックを入れてください。x=32bit , y=32bit, result=64bit
 //
-	int acc, i;
-
-	acc = 0;
-
-        for (i=0; i< 16; ++i) {
-                if (y & 1)
-                        acc += x;
-                y = y >> 1;
-                x = x << 1;
-
-        }
-
-	return acc;
+	return x*y;
 }
 
 static __inline int div(int x,int y) {
