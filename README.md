@@ -20,5 +20,5 @@
 
 ## ルール５
   * 評価環境は、x86(64bit), Raspi 5, Apple M1-3の３種類で行う
-  * #define LOOP_SEC の値は、最終的には(10)で評価する
+  * #define LOOP_SEC の値は、最終的には(2)で評価する
   
