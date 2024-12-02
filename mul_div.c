@@ -19,7 +19,7 @@ static __inline int mul(int x,int y) {
 
 static __inline int div(int x,int y) {
 //
-// 以下を削除してここに除算のロジックを入れてください。x=32bit , y=32bit, result=32bit
+// 以下を削除してここに除算のロジックを入れてください。x=64bit , y=32bit, result=32bit
 //
 	return x/y;
 }
