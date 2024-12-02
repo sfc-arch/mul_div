@@ -3,7 +3,7 @@
 #include <signal.h>
 #include <sys/time.h>
 
-#define	LOGIN	"macchan"
+#define	LOGIN	"original"
 
 long long count;
 int loop;
